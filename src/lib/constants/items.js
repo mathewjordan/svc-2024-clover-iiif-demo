@@ -1,6 +1,6 @@
 export default [
   {
-    id: "http://localhost:3000/iiif/manifest/washington.json",
+    id: "https://mathewjordan.github.io/svc-2024-clover-iiif-demo/iiif/manifest/washington.json",
     label: "The song of the state of Washington",
     summary: "University of Washington",
     thumbnail:

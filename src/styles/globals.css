@@ -10,7 +10,8 @@ body {
   overflow-x: hidden;
 }
 
-.clover-viewer-header {
+.clover-viewer-header,
+.clover-viewer-player-wrapper > canvas {
   display: none !important;
 }
 

@@ -77,7 +77,7 @@ const IndexPage = () => {
         />
       </Box>
 
-      <Container>
+      <Container px="5">
         {/* label and summary */}
         <Section size="1" asChild>
           <header>
