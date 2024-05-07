@@ -1,0 +1,630 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:3000/iiif/manifest/washington.json",
+  "type": "Manifest",
+  "metadata": [
+    {
+      "label": {
+        "none": ["Contact Info"]
+      },
+      "value": {
+        "none": ["For further information contact musiclib@u.washington.edu"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Cover Description"]
+      },
+      "value": {
+        "none": [
+          "A topographical map of Washington, rhododendron blossoms.  Red, orange, yellow, green, blue, pink, and black print."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": ["Publisher"]
+      },
+      "value": {
+        "none": ["Young, M. G."]
+      }
+    },
+    {
+      "label": {
+        "none": ["Caption Title"]
+      },
+      "value": {
+        "none": ["The song of the state of Washington"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Lyricist"]
+      },
+      "value": {
+        "none": ["Young, M. G."]
+      }
+    },
+    {
+      "label": {
+        "none": ["Place of Publication"]
+      },
+      "value": {
+        "none": ["1010 N. 45th St., Seattle"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Digital Collection"]
+      },
+      "value": {
+        "none": ["Pacific Northwest Sheet Music : from the Ashford Collection"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Digital Copyright"]
+      },
+      "value": {
+        "none": [
+          "Materials in the Pacific Northwest Sheet Music collection are in the public domain.  No copyright permissions are needed.  Acknowledgement of the Pacific Northwest Sheet Music collection as a source for borrowed images is requested."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": ["First Line of Chorus"]
+      },
+      "value": {
+        "none": ["This land you have heard of so frequent"]
+      }
+    },
+    {
+      "label": {
+        "none": ["First Line"]
+      },
+      "value": {
+        "none": ["Would you think of a beautiful country"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Date"]
+      },
+      "value": {
+        "none": ["1909"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Location Number"]
+      },
+      "value": {
+        "none": ["5w"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Physical Description"]
+      },
+      "value": {
+        "none": ["3 p. ; 36 cm."]
+      }
+    },
+    {
+      "label": {
+        "none": ["Performance Medium"]
+      },
+      "value": {
+        "none": ["For voice and piano"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Composer"]
+      },
+      "value": {
+        "none": ["Young, Letha Coghlan"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Other Title"]
+      },
+      "value": {
+        "none": ["Washington's descriptive song"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Genre"]
+      },
+      "value": {
+        "none": ["Sheet music"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Repository"]
+      },
+      "value": {
+        "none": ["University of Washington.  Music Library."]
+      }
+    },
+    {
+      "label": {
+        "none": ["Repository Collection"]
+      },
+      "value": {
+        "none": ["Ashford Collection."]
+      }
+    },
+    {
+      "label": {
+        "none": ["Title"]
+      },
+      "value": {
+        "none": ["The song of the state of Washington"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Type-DCMI"]
+      },
+      "value": {
+        "none": ["musical score"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Repository"]
+      },
+      "value": {
+        "none": ["University of Washington Digital Collections"]
+      }
+    },
+    {
+      "label": {
+        "none": ["Source"]
+      },
+      "value": {
+        "none": [
+          "<span>From: <a href=\"https://digitalcollections.lib.washington.edu/digital/collection/sm/id/286\">The song of the state of Washington</a></span>"
+        ]
+      }
+    }
+  ],
+  "label": {
+    "none": ["The song of the state of Washington"]
+  },
+  "summary": {
+    "none": [
+      "Four large tulips, and a border and some floral decorations around the text.  Yellow, green, blue, and white print."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:196/0,0,800,800/300,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 300,
+      "height": 300
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "none": ["Attribution"]
+    },
+    "value": {
+      "none": [
+        "",
+        "Materials in the Pacific Northwest Sheet Music collection are in the public domain.  No copyright permissions are needed.  Acknowledgement of the Pacific Northwest Sheet Music collection as a source for borrowed images is requested."
+      ]
+    }
+  },
+  "partOf": [
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm/manifest.json",
+      "type": "Collection"
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/oai/oai.php?verb=GetRecord&identifier=oai:cdm16786.contentdm.oclc.org:sm/286&metadataPrefix=oai_qdc",
+      "type": "Dataset",
+      "profile": "http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd",
+      "format": "application/xml"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0",
+      "type": "Canvas",
+      "height": 1108,
+      "width": 800,
+      "label": {
+        "none": ["Front cover"]
+      },
+      "placeholderCanvas": {
+        "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c0/placeholder",
+        "type": "Canvas",
+        "label": {
+          "none": ["Front cover"]
+        },
+        "height": 800,
+        "width": 800,
+        "items": [
+          {
+            "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c0/placeholder/annotation/page",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c0/placeholder/annotation/image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:196/0,0,800,800/800,/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "width": 800,
+                  "height": 800
+                },
+                "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c0/placeholder"
+              }
+            ]
+          }
+        ]
+      },
+      "annotations": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0/annotations/transcription",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "en",
+                "format": "text/markdown",
+                "value": "**THE SONG OF THE STATE OF WASHINGTON**\n\n*Property of the Music Library, University of Washington Libraries. Ashford Collection.*\n\n![Map of Washington](image.png)\n\n**Words by PROF. M. G. YOUNG**  \n**Music by MRS. LETHA COGHLAN YOUNG**\n\n**WASHINGTON'S DESCRIPTIVE SONG**\n\nPublished by  \n**PROF. M. G. YOUNG**  \n1010 North 45th St.  \nSeattle, Wash.\n\nPRICE, 50c\n\nDesigned, Engraved and Printed in Seattle"
+              },
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/annotation/a0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0",
+              "body": {
+                "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:196/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1108,
+                "width": 800,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:196",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "width": 800,
+                    "height": 1108,
+                    "tiles": [
+                      {
+                        "width": 800,
+                        "scaleFactors": [1, 2, 4, 8, 16]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:197/canvas/c1",
+      "type": "Canvas",
+      "height": 1113,
+      "width": 800,
+      "label": {
+        "none": ["Page 2"]
+      },
+      "annotations": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c1/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c1/annotations/transcription",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "en",
+                "format": "text/markdown",
+                "value": "**The Song of The State of Washington.**\n\nWords by Prof. M. G. Young. Music By Mrs. Letha Coghlan Young. Tempo di Marcia.\n\n**Con Anima.**\n\n1. Would you think of a beautiful Country, \n2. We have health-giving ozone from the mountains, \n3. The flowers bloom at random all winter, \n\nWhere nature stands out in full dress, \nA fresh salty breeze from the sea, \nGrain and. \n\nIn the evergreen forest so tall, \nwhere the. \n\nDotted with the most pleasing features, \nThat no one could imagine or guess, \n\nFruits of all kinds you could mention, \nAnd timber as big as can be, \n\nBlue Jay screams with a vengeance \nAnd you hear the mountain quail call. \n\nThere are brooklets with sparkling soft water \nAnd wild."
+              },
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:197/canvas/c1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:197/canvas/c1/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:197/annotation/a1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:197/canvas/c1",
+              "body": {
+                "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:197/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1113,
+                "width": 800,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:197",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "width": 800,
+                    "height": 1113,
+                    "tiles": [
+                      {
+                        "width": 800,
+                        "scaleFactors": [1, 2, 4, 8, 16]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2",
+      "type": "Canvas",
+      "height": 1113,
+      "width": 800,
+      "label": {
+        "none": ["Page 3"]
+      },
+      "annotations": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2/annotations/transcription",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "en",
+                "format": "text/markdown",
+                "value": "**Con Anima.**\n\nThis land you have heard of so frequently,\nWashington bordering the sea.\nShe has room for a million newcomers\nAnd the lands are both fertile and free.\n\nGarnished give pleasure and rest,\n'Tis no where so perfect and grand\nAnd there's milk in abundance now\nAnd the powers of description fail me.\n\nAs I way out here in the west.\nFor this is the home of the bee.\nAs unmentioned things I recall.\n\n**Refrain**"
+              },
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/annotation/a2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2",
+              "body": {
+                "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:198/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1113,
+                "width": 800,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:198",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "width": 800,
+                    "height": 1113,
+                    "tiles": [
+                      {
+                        "width": 800,
+                        "scaleFactors": [1, 2, 4, 8, 16]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3",
+      "type": "Canvas",
+      "height": 1113,
+      "width": 800,
+      "label": {
+        "none": ["Back cover"]
+      },
+      "annotations": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3/annotations/transcription",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "en",
+                "format": "text/markdown",
+                "value": "**THE GREAT A.Y.P.E. (PARODY)**\n\nTune: *Marching Through Georgia*\n\nWords by PROF. M.G. YOUNG\n\nWhy should you not take in this fair the great A.Y.P.E.\nThe greatest thing of every kind are here for you to see.\nAnd everything we promise you is always, sure to be\nAway out here in Seattle.\n\n**Chorus:**\nHurrah! Hurrah! For the Great A.Y.P.E.\nCome one, come all; this fair you all should see;\nBegin in time to make your plans and bring your family,\nTo see the greatest state in the Union.\n\nSeattle is the greatest city in the greatest state,\nShe has the greatest mountains, also the greatest lake,\nHer people do the greatest things in all they undertake\nAway out here in Seattle.\n\nOur city now is putting on her very finest dress,\nYou'll get the best of everything and more than you can guess,\nTo suit your taste, to please your eye, and give your body rest,\nAway out here in Seattle.\n\nThe way we've “primped” and “fussed” around would almost make you laugh,\nBut if you'll come I promise you we'll kill the fatted calf,\nFor we are going to need him when we're feeding President Taft,\nAway out here in Seattle.\n\nWe all count on our many friends beyond the Cascade Range,\nTo take a short vacation and to give themselves a change;\nSo do your best in every way your business to arrange,\nTo see us all this year in Seattle.\n\n*Watch for Prof. Young's next song soon to appear, entitled*\n\n**MY MOTHER “She is Waiting for a Letter”**\nThis sweet pathetic piece is sure to please you and thousands of others."
+              },
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/annotation/a3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3",
+              "body": {
+                "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:195/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1113,
+                "width": 800,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:195",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "width": 800,
+                    "height": 1113,
+                    "tiles": [
+                      {
+                        "width": 800,
+                        "scaleFactors": [1, 2, 4, 8, 16]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4",
+      "type": "Canvas",
+      "duration": 85.0,
+      "label": {
+        "none": ["The Song Of The State Of Washington"]
+      },
+      "thumbnail": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:196/0,0,800,800/300,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 300,
+          "height": 300
+        }
+      ],
+      "accompanyingCanvas": {
+        "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4/accompanying",
+        "type": "Canvas",
+        "label": {
+          "none": ["The Song Of The State Of Washington"]
+        },
+        "height": 300,
+        "width": 300,
+        "items": [
+          {
+            "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4/accompanying/annotation/page",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4/accompanying/annotation/image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://cdm16786.contentdm.oclc.org/iiif/2/sm:196/0,0,800,800/300,/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "width": 300,
+                  "height": 300
+                },
+                "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4/accompanying"
+              }
+            ]
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/annotation/a4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4",
+              "body": {
+                "id": "http://localhost:3000/iiif/resources/the-song-of-the-state-of-washington.mp3",
+                "type": "Sound",
+                "duration": 85.0,
+                "format": "audio/mp3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:286/range/r0",
+      "type": "Range",
+      "behavior": ["top"],
+      "label": {
+        "none": ["The song of the state of Washington"]
+      },
+      "items": [
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:196/canvas/c0",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:197/canvas/c1",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:198/canvas/c2",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c3",
+          "type": "Canvas"
+        }
+      ]
+    }
+  ]
+}
