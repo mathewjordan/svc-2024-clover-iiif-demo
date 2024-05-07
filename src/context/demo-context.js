@@ -7,6 +7,7 @@ const DemoContext = createContext();
 const initialState = {
   appearance: "light",
   accentColor: "indigo",
+  font: "sans-serif",
   manifest: items[0].id,
 };
 
@@ -16,6 +17,8 @@ const reducer = (state, action) => {
       return { ...state, accentColor: action.payload };
     case "SET_APPEARANCE":
       return { ...state, appearance: action.payload };
+    case "SET_FONT":
+      return { ...state, font: action.payload };
     case "SET_MANIFEST":
       return { ...state, manifest: action.payload };
     default:

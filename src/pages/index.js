@@ -15,7 +15,7 @@ const IndexPage = () => {
   const [json, setJson] = useState({});
 
   const {
-    state: { appearance, manifest },
+    state: { appearance, font, manifest },
   } = useDemo();
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const IndexPage = () => {
   );
 
   return (
-    <Layout appearance={appearance}>
+    <Layout appearance={appearance} font={font}>
       {/* <Box
         style={{
           position: "absolute",

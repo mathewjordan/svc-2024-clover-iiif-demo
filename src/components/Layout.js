@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 
-const Layout = ({ appearance, children }) => {
+const Layout = ({ appearance, font, children }) => {
   const colors =
     appearance === "dark"
       ? {
@@ -16,10 +16,19 @@ const Layout = ({ appearance, children }) => {
           secondary: "var(--gray-1)",
         };
 
+  console.log(font);
+
+  const fontFamily =
+    font === "sans-serif"
+      ? `-apple-system, BlinkMacSystemFont, "Segoe UI (Custom)", Roboto, "Helvetica Neue", sans-serif`
+      : "Times, Garamond, serif";
+
   return (
     <>
       <style jsx global>{`
         * {
+          font-family: ${fontFamily};
+
           --colors-accent: ${colors.accent};
           --colors-accentAlt: ${colors.accentAlt};
           --colors-accentMuted: ${colors.accent};
@@ -29,6 +38,15 @@ const Layout = ({ appearance, children }) => {
           --colors-secondary: ${colors.secondary};
           --colors-secondaryAlt: ${colors.secondary};
           --colors-secondaryMuted: ${colors.secondary};
+        }
+
+        .radix-themes {
+          --default-font-family: ${fontFamily};
+          --heading-font-family: ${fontFamily};
+          --code-font-family: ${fontFamily};
+          --strong-font-family: ${fontFamily};
+          --em-font-family: ${fontFamily};
+          --quote-font-family: ${fontFamily};
         }
       `}</style>
       <Header />
