@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.clover-viewer-header {
+  display: none !important;
+}
+
+dl.demo-datalist {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+dl.demo-datalist dt {
+  font-weight: bold;
+}
+
+article p {
+  margin: 1rem 0;
+}
+
+article ol {
+  margin: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

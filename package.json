@@ -1,5 +1,6 @@
 {
   "name": "svc-2024-clover-iiif-demo",
+  "author": "Mat Jordan <mat@northwestern.edu>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "@iiif/parser": "^2.1.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/themes": "^3.0.3",
+    "@samvera/clover-iiif": "^2.8.3",
+    "next": "14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
