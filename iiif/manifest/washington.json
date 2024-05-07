@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://localhost:3000/iiif/manifest/washington.json",
+  "id": "https://mathewjordan.github.io/svc-2024-clover-iiif-demo/iiif/manifest/washington.json",
   "type": "Manifest",
   "metadata": [
     {
