@@ -2,6 +2,7 @@ import { Box, Container, Heading, Section, Text } from "@radix-ui/themes";
 import {
   CloverPrimitives,
   CloverScroll,
+  CloverSlider,
   CloverViewer,
 } from "@/components/CloverIIIF";
 import { useEffect, useState } from "react";
@@ -13,6 +14,7 @@ import { useDemo } from "@/context/demo-context";
 
 const IndexPage = () => {
   const [json, setJson] = useState({});
+  const [collection, setCollection] = useState({});
 
   const {
     state: { appearance, font, manifest },
@@ -24,6 +26,10 @@ const IndexPage = () => {
       .then((data) => {
         const upgraded = upgrade(data);
         setJson(upgraded);
+
+        if (upgraded?.partOf && upgraded?.partOf?.length) {
+          setCollection(upgraded?.partOf[0]?.id);
+        }
       });
   }, [manifest]);
 
@@ -66,6 +72,11 @@ const IndexPage = () => {
         <CloverViewer
           iiifContent={manifest}
           options={{
+            openSeadragon: {
+              gestureSettingsMouse: {
+                scrollToZoom: false,
+              },
+            },
             canvasHeight: "auto",
             informationPanel: {
               renderToggle: false,
@@ -122,6 +133,13 @@ const IndexPage = () => {
             Transcriptions
           </Heading>
           <CloverScroll iiifContent={manifest} />
+        </Section>
+
+        <Section>
+          <Heading as="h2" weight="light" color="gray" mb="5">
+            Explore More
+          </Heading>
+          <CloverSlider iiifContent={collection} />
         </Section>
       </Container>
     </Layout>

@@ -15,6 +15,14 @@ body {
   display: none !important;
 }
 
+.clover-slider-header-homepage {
+  color: var(--accent-11) !important;
+}
+
+.swiper a {
+  color: inherit !important;
+}
+
 dl.demo-datalist {
   display: grid;
   /* grid-template-columns: repeat(2, 1fr); */
