@@ -11,6 +11,13 @@ const Scroll = dynamic(
   }
 );
 
-const CloverScroll = (props) => <Scroll {...props} />;
+const CloverScroll = (props) => (
+  <Scroll
+    {...props}
+    options={{
+      offset: 100,
+    }}
+  />
+);
 
 export default CloverScroll;
