@@ -29,6 +29,8 @@ const IndexPage = () => {
 
         if (upgraded?.partOf && upgraded?.partOf?.length) {
           setCollection(upgraded?.partOf[0]?.id);
+        } else {
+          setCollection(null);
         }
       });
   }, [manifest]);
