@@ -588,7 +588,7 @@
               "motivation": "painting",
               "target": "https://cdm16786.contentdm.oclc.org/iiif/sm:195/canvas/c4",
               "body": {
-                "id": "http://localhost:3000/iiif/resources/the-song-of-the-state-of-washington.mp3",
+                "id": "https://mathewjordan.github.io/svc-2024-clover-iiif-demo/iiif/resources/the-song-of-the-state-of-washington.mp3",
                 "type": "Sound",
                 "duration": 85.0,
                 "format": "audio/mp3"
