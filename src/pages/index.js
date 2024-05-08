@@ -46,30 +46,7 @@ const IndexPage = () => {
 
   return (
     <Layout appearance={appearance} font={font}>
-      {/* <Box
-        style={{
-          position: "absolute",
-          zIndex: -1,
-          width: "100%",
-          maskImage:
-            "linear-gradient(183deg, #000 0, #0001 calc(100% - 500px), transparent calc(100% - 200px))",
-        }}
-      >
-        <CloverPrimitives.Thumbnail
-          thumbnail={[
-            {
-              id: "https://meadow-streaming.rdc.library.northwestern.edu/b0/ce/0a/56/-a/5b/a-/41/a0/-8/42/8-/bc/d2/9d/6d/89/48/numedia_33159-mp107.m3u8#t=570,600",
-              type: "Video",
-              format: "application/x-mpegurl",
-              width: "100%",
-              height: "100%",
-              duration: 30,
-            },
-          ]}
-          label={json.label}
-        />
-      </Box> */}
-
+      {/* viewer */}
       <Box position="relative" height="70vh" minHeight="640px" mb="5">
         <CloverViewer
           iiifContent={manifest}
@@ -91,7 +68,7 @@ const IndexPage = () => {
       </Box>
 
       <Container px="5">
-        {/* label and summary */}
+        {/* primitives - label and summary */}
         <Section size="1" asChild>
           <header>
             <Heading size="9" my="4" asChild>
@@ -103,7 +80,7 @@ const IndexPage = () => {
           </header>
         </Section>
 
-        {/* metadata */}
+        {/* primitives - metadata & required statement */}
         <Section>
           <Heading as="h2" weight="light" color="gray" mb="5">
             Details
@@ -129,7 +106,7 @@ const IndexPage = () => {
           />
         </Section>
 
-        {/* scroll component with annotations as textual bodies */}
+        {/* scroll with annotations as textual bodies */}
         <Section>
           <Heading as="h2" weight="light" color="gray" mb="5">
             Transcriptions
@@ -137,6 +114,7 @@ const IndexPage = () => {
           <CloverScroll iiifContent={manifest} />
         </Section>
 
+        {/*slider */}
         <Section>
           <Heading as="h2" weight="light" color="gray" mb="5">
             Explore More
@@ -149,3 +127,29 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+{
+  /* <Box
+        style={{
+          position: "absolute",
+          zIndex: -1,
+          width: "100%",
+          maskImage:
+            "linear-gradient(183deg, #000 0, #0001 calc(100% - 500px), transparent calc(100% - 200px))",
+        }}
+      >
+        <CloverPrimitives.Thumbnail
+          thumbnail={[ 
+            {
+              id: "https://meadow-streaming.rdc.library.northwestern.edu/b0/ce/0a/56/-a/5b/a-/41/a0/-8/42/8-/bc/d2/9d/6d/89/48/numedia_33159-mp107.m3u8#t=570,600",
+              type: "Video",
+              format: "application/x-mpegurl",
+              width: "100%",
+              height: "100%",
+              duration: 30,
+            },
+          ]}
+          label={json.label}
+        />
+      </Box> */
+}
