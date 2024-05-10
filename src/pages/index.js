@@ -47,7 +47,7 @@ const IndexPage = () => {
   return (
     <Layout appearance={appearance} font={font}>
       {/* viewer */}
-      <Box position="relative" height="70vh" minHeight="640px" mb="5">
+      <Box mb="5">
         <CloverViewer
           iiifContent={manifest}
           options={{
@@ -56,7 +56,6 @@ const IndexPage = () => {
                 scrollToZoom: false,
               },
             },
-            canvasHeight: "auto",
             informationPanel: {
               renderToggle: false,
               renderAbout: false,
