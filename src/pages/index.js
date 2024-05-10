@@ -47,7 +47,7 @@ const IndexPage = () => {
   return (
     <Layout appearance={appearance} font={font}>
       {/* viewer */}
-      <Box mb="5">
+      <Box mb="5" asChild>
         <CloverViewer
           iiifContent={manifest}
           options={{
