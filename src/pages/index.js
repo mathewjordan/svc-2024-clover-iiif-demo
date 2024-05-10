@@ -47,7 +47,6 @@ const IndexPage = () => {
   return (
     <Layout appearance={appearance} font={font}>
       {/* viewer */}
-      <Box mb="5" position="relative">
         <CloverViewer
           iiifContent={manifest}
           options={{
@@ -64,7 +63,7 @@ const IndexPage = () => {
             showIIIFBadge: false,
           }}
         />
-      </Box>
+     
 
       <Container px="5">
         {/* primitives - label and summary */}
